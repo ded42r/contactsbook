@@ -1,0 +1,18 @@
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  h2:
+    console:
+      enabled: true
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        hbm2ddl.auto: validate
+        ddl-auto: validate
+      show-sql: true
+  datasource:
+    url: jdbc:h2:file:./db/contacts_book
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
