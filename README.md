@@ -14,6 +14,7 @@
 * **contacts/search**
     * GET - найти контакт, в query указываем подстроку. Поиск(регистронезависимый) происходит по имени или фамилии.
 * В файле _contanctsbook.postman_collection.json_ коллекция запросов для [postman](https://www.postman.com/)
+* swagger-ui доступно по /swagger-ui.html
  
 
 # Контакт
