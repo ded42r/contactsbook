@@ -1,0 +1,5 @@
+CREATE TABLE phone_types
+(
+    id   INT AUTO_INCREMENT PRIMARY KEY,
+    type VARCHAR(64) NOT NULL
+)
